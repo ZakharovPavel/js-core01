@@ -92,7 +92,7 @@ async function onResultListClick(e) {
   let resultItemData = e.target.dataset.resultCounter;
   let resultItem = originRepos[Number(resultItemData - 1)];
 
-  let newCard = document.createElement('div');
+  let newCard = document.createElement('li');
   let cardTextContainer = document.createElement('div');
   let itemName = document.createElement('span');
   let itemOwner = document.createElement('span');
